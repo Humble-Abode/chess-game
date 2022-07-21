@@ -10,8 +10,9 @@
 // basic print function
 void print(const char * text = "");
 
-// vertexToCoordinate
-
+// vertexToCoordinate takes in a vertex and returns
+// a coordinate representing chess board
+std::string vertexToCoordinate(int vertex);
 
 // this is all the definitions:
 
@@ -20,10 +21,10 @@ void print(const char * text)
     std::cout << text << std::endl;
 }
 
-//
 std::string vertexToCoordinate(int vertex)
 {
-
+    std::string returnCoordinate;
+    
 }
 
 #endif
