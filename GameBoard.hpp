@@ -10,6 +10,10 @@
 // and edges connecting vertices are determined by
 // if a piece can access that vertex (valid move)
 
+//TODO: Make Matrix for all possible move and on all possible pieces
+//TODO: Make GameBoard make moves
+
+
 
 class GameBoard
 {
