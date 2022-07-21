@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <string>
-#include <stdio.h>
+#include <cstdio>
 
 // this is all the declarations:
 
