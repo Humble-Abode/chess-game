@@ -20,4 +20,5 @@ void print(std::string text);
 // a coordinate representing chess board
 std::string vertexToCoordinate(int vertex);
 
+
 #endif
