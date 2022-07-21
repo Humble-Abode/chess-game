@@ -7,17 +7,25 @@
 
 // DEBUG includes:
 #include <iostream>
+#include "HelperFunctions.hpp"
+
+// TODO:
+// * find a way to hold coordinate info
 
 // Class for piece of the board.
 // Will be inherited.
 class Piece
 {
+public:
     // default constructor for all pieces
     Piece(GameBoard& board);
 
     // will hold a reference to the actual board, where
     // piece moves will change the gamestate.
     GameBoard& board;
+
+    // hold coordinate info
+
 };
 
 // Class for pawn.

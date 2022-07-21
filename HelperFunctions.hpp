@@ -3,15 +3,14 @@
 
 #include <iostream>
 #include <string>
+#include <stdio.h>
 
 // this is all the declarations:
 
 // basic print function
 void print(const char * text = "");
 
-// basic print function with template
-// template <typename T>
-// void print(T text);
+// vertexToCoordinate
 
 
 // this is all the definitions:
@@ -21,10 +20,10 @@ void print(const char * text)
     std::cout << text << std::endl;
 }
 
-// template <typename T>
-// void print(T text)
-// {
-//     std::cout << text << std::endl;
-// }
+//
+std::string vertexToCoordinate(int vertex)
+{
+
+}
 
 #endif

@@ -7,5 +7,7 @@
 
 int main()
 {
-
+    
+    GameBoard testBoard;
+    Piece(testBoard);
 }
