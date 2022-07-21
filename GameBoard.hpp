@@ -2,6 +2,7 @@
 #define GAMEBOARD_HPP
 #include "HelperFunctions.hpp"
 #include <vector>
+#include "ChessPieces.hpp"
 
 // Class for the game board.
 // Will contain a map as the underlying data structure,
@@ -14,7 +15,7 @@ class GameBoard
 {
 public:
     GameBoard();
-    
+    std::vector<std::pair<Piece,std::vector<Piece>>> buf;
 };
 
 #endif
