@@ -12,6 +12,7 @@ class Pawn
 // Class for knight
 // Can only move in L-shapes
 // Can jump over pieces
+
 class Knight
 {
     void move();
