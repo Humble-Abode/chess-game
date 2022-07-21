@@ -7,7 +7,9 @@
 
 int main()
 {
-
+    print("testing construction of gameboard");
     GameBoard testBoard;
+
+    print("testing construction for piece class");
     Piece testPiece(testBoard);
 }
