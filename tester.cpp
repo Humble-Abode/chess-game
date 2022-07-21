@@ -2,6 +2,7 @@
 
 // included debug files
 #include "ChessPieces.hpp"
+#include "GameBoard.hpp"
 
 
 
@@ -13,7 +14,7 @@ int main()
 
     print();
     print("testing construction for piece class");
-    Piece testPiece(testBoard);
+    Piece testPiece;
 
     print();
     return 0;

@@ -2,12 +2,11 @@
 #define CHESSPIECES_HPP
 
 // This will be the modules that contain the chess pieces
-
-#include "GameBoard.hpp"
+#include "HelperFunctions.hpp"
 
 // DEBUG includes:
 #include <iostream>
-#include "HelperFunctions.hpp"
+
 
 // TODO:
 // * find a way to hold coordinate info
@@ -16,13 +15,9 @@
 // Will be inherited.
 class Piece
 {
-public:
+    public:
     // default constructor for all pieces
-    Piece(GameBoard& board);
-
-    // will hold a reference to the actual board, where
-    // piece moves will change the gamestate.
-    GameBoard& board;
+    Piece();
 
     // hold coordinate info
 

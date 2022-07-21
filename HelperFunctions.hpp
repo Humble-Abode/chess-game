@@ -3,7 +3,10 @@
 
 #include <iostream>
 #include <string>
-#include <cstdio>
+// #include <cstdio>
+
+// TODO:
+// * finish vertexToCoordinate
 
 // this is all the declarations:
 
