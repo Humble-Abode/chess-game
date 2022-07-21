@@ -14,7 +14,6 @@ class GameBoard
 {
 public:
     GameBoard();
-
 };
 
 #endif
