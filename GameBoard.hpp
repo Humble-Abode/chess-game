@@ -1,3 +1,6 @@
+#ifndef GAMEBOARD_HPP
+#define GAMEBOARD_HPP
+
 // Class for the game board.
 // Will contain a map as the underlying data structure,
 // where each vertex contains a piece information
@@ -9,3 +12,5 @@ class GameBoard
 {
 
 };
+
+#endif

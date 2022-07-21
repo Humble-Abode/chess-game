@@ -1,11 +1,19 @@
+#ifndef CHESSPIECES_HPP
+#define CHESSPIECES_HPP
+
 // This will be the modules that contain the chess pieces
 
 #include "GameBoard.hpp"
+
+// DEBUG includes:
+#include <iostream>
 
 // Class for piece of the board.
 // Will be inherited.
 class Piece
 {
+    // default constructor for all pieces
+    Piece(GameBoard& board);
 
     // will hold a reference to the actual board, where
     // piece moves will change the gamestate.
@@ -16,7 +24,7 @@ class Piece
 // Can only move forward, can only capture diagonal.
 // If the pawn hasn't moved, it can move forward 2 spaces.
 // Once it reaches the end, it can promote to ANY piece.
-class Pawn : Piece
+class Pawn : public Piece 
 {
     void move();
     
@@ -25,14 +33,14 @@ class Pawn : Piece
 // Class for knight
 // Can only move in L-shapes
 // Can jump over pieces
-class Knight : Piece
+class Knight : public Piece
 {
     void move();
 };
 
 // Class for bishop
 // Can only move and capture diagonally
-class Bishop : Piece
+class Bishop : public Piece
 {
     void move();
 };
@@ -40,14 +48,14 @@ class Bishop : Piece
 // Class for rook
 // Can only move and capture horizontally
 // Can "castle" with king
-class Rook : Piece
+class Rook : public Piece
 {
     void move();
 };
 
 // Class for queen
 // Caan move and capture horizontally and vertically
-class Queen : Piece
+class Queen : public Piece
 {
     void move();
 };
@@ -56,7 +64,9 @@ class Queen : Piece
 // Can move and capture horizontally and vertically, but only one square
 // Cannot move itself into a square that would get itself captured on the next move
 // Can "Castle" with the rook
-class King : Piece
+class King : public Piece
 {
     void move();
 };
+
+#endif
