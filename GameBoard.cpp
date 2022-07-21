@@ -1,5 +1,5 @@
 #include "GameBoard.hpp"
 
 GameBoard::GameBoard(){
-    printf("pandas are phat\n");
+    printf("DEBUG: inside constructor pandas are phat\n");
 }
