@@ -11,8 +11,8 @@
 
 class GameBoard
 {
-    public:
-        GameBoard();
+public:
+    GameBoard();
 
 };
 

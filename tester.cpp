@@ -9,5 +9,5 @@ int main()
 {
 
     GameBoard testBoard;
-    Piece(testBoard);
+    Piece testPiece(testBoard);
 }
