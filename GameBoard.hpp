@@ -12,14 +12,8 @@
 
 class GameBoard
 {
-<<<<<<< HEAD
 public:
     GameBoard();
-=======
-    public:
-        GameBoard();
-        std::vector <std::pair<,>> 
->>>>>>> ade5058c2df82ff28001e1c04046b620d0a854ad
 
 };
 
