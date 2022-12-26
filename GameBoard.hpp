@@ -3,6 +3,7 @@
 #include "HelperFunctions.hpp"
 #include <vector>
 #include "ChessPieces.hpp"
+#include <map>
 
 // Class for the game board.
 // Will contain a map as the underlying data structure,
@@ -19,7 +20,27 @@ class GameBoard
 {
 public:
     GameBoard();
-    std::vector<std::pair<Piece,std::vector<Piece>>> buf;
+
+    //std::vector<std::pair<Piece,std::vector<Piece>>> buf;
+    //map of piece and coordinates
+    std::map<Piece,std::vector<Piece>> moves;
+    board[7][7];
+
+    //reset board 
+    void resetBoard(){
+
+    }
+
+    //print board with an array to visualize in 2D
+    void printBoard(){
+        for(int i; i< 7;i++){
+            for(int)
+        }
+        std::cout<
+    }
+
+
+
 };
 
 #endif
